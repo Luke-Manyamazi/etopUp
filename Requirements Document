@@ -61,8 +61,8 @@ ________________________________________
 
 4. User Flow
 1.	User signs up and logs in.
-2.	User enters meter number.
-3.	User selects top-up amount and payment method.
+2.  User adds a meter number or selects from the list (if added already).
+3.	User enters top-up amount and payment method.
 4.	System processes payment and generates a digital token.
 5.	User enters the token into their meter or (future) direct top-up applies automatically.
 6.	User receives confirmation.
