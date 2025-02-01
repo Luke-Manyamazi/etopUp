@@ -39,6 +39,7 @@ ________________________________________
 •	Support for Stripe, PayPal, and mobile money payment gateways.
 •	Secure transaction handling with error recovery mechanisms.
 •	Users can view their transaction history.
+
 2.5 Meter Top-Up Processing
 •	The system will integrate directly with utility companies' APIs to apply top-ups automatically to meters.
 •	If API integration is unavailable, a fallback option for digital token generation will be considered.
@@ -50,14 +51,17 @@ ________________________________________
 ________________________________________
 
 3. Non-Functional Requirements
+
 3.1 Security
 •	Use SSL encryption for all transactions.
 •	Implement secure password storage (e.g., bcrypt hashing).
 •	Ensure secure API communication with payment gateways and utility providers.
+
 3.2 Performance & Scalability
 •	The app should handle concurrent users efficiently.
 •	The backend should be optimized for fast response times.
 •	Initial database storage will be Google Sheets, with plans to migrate to Firebase/PostgreSQL.
+
 3.3 Usability & Accessibility
 •	Responsive design for mobile and desktop users.
 •	High-contrast UI elements for accessibility.
