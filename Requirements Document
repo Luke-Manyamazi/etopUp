@@ -1,0 +1,79 @@
+etopUp App
+Requirements Document
+
+1. Introduction
+1.1 Purpose
+This document outlines the functional and non-functional requirements for a web application that allows users to top up their prepaid electricity and water meters seamlessly. 
+The app aims to eliminate reliance on physical keypads and paper tokens by providing a digital solution.
+
+1.2 Scope
+The application will:
+•	Enable users to purchase top-ups online.
+•	Generate digital tokens for manual entry or directly credit meters where possible.
+•	Support multiple payment methods.
+•	Provide secure authentication and transaction history tracking.
+•	Be designed with future expansion into a mobile app for both Android and iOS.
+________________________________________
+
+2. Functional Requirements
+2.1 User Authentication
+•	Users can sign up with an email and password.
+•	Users can log in securely using authentication mechanisms.
+•	Password reset functionality should be available.
+
+2.2 Top-Up Purchase Process
+•	Users can enter their meter number to initiate a top-up.
+•	The system should validate the meter number before proceeding.
+•	Users can select a payment method (credit/debit card, mobile money, PayPal, etc.).
+•	Upon successful payment, a digital token is generated and displayed.
+•	A confirmation email or SMS is sent to the user.
+
+2.3 Payment Integration
+•	Support for Stripe, PayPal, and mobile money payment gateways.
+•	Secure transaction handling with error recovery mechanisms.
+•	Users can view their transaction history.
+
+2.4 Meter Top-Up Processing
+•	Initially, users will enter the generated token manually.
+•	Future implementation may include direct integration with meter providers.
+
+2.5 User Dashboard
+•	Displays meter top-up history.
+•	Shows wallet balance (if a wallet system is introduced).
+•	Allows users to manage their account details.
+________________________________________
+3. Non-Functional Requirements
+3.1 Security
+•	Use SSL encryption for all transactions.
+•	Implement secure password storage (e.g., bcrypt hashing).
+•	Ensure secure API communication with payment gateways.
+
+3.2 Performance & Scalability
+•	The app should handle concurrent users efficiently.
+•	The backend should be optimized for fast response times.
+•	Initial database storage will be Google Sheets, with plans to migrate to Firebase/PostgreSQL.
+
+3.3 Usability & Accessibility
+•	Responsive design for mobile and desktop users.
+•	High-contrast UI elements for accessibility.
+•	Simple and intuitive navigation.
+________________________________________
+
+4. User Flow
+1.	User signs up and logs in.
+2.	User enters meter number.
+3.	User selects top-up amount and payment method.
+4.	System processes payment and generates a digital token.
+5.	User enters the token into their meter or (future) direct top-up applies automatically.
+6.	User receives confirmation.
+________________________________________
+
+5. Future Enhancements
+•	Direct API integration with utility companies for automatic top-ups.
+•	Introduction of a wallet system for faster transactions.
+•	AI-powered usage tracking and recommendations.
+•	Development of a mobile app version for Android and iOS devices.
+________________________________________
+
+6. Conclusion
+This document serves as a guide for the development of the prepaid top-up web app. It ensures all stakeholders have a clear understanding of the project’s goals, functionality, and future scalability.
