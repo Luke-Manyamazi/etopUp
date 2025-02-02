@@ -1,8 +1,40 @@
 Problem Statement:
-Many prepaid electricity and water users face challenges when topping up their meters due to reliance on keypads. Currently, users must purchase a token from retail outlets or online, then manually enter it on a keypad near the meter. 
-This process has several limitations, including the risk of losing paper tokens, the inconvenience of sending tokens to someone on-site, unavailability of tokens at retailers, and the inability to top up when stores are closed. 
+Many prepaid electricity and water users face challenges when topping up their meters due to reliance on keypads. Currently, users must purchase a token from retail outlets or online, then manually enter it on a keypad near the meter.
+This process has several limitations, including the risk of losing paper tokens, the inconvenience of sending tokens to someone on-site, unavailability of tokens at retailers, and the inability to top up when stores are closed.
 Additionally, faulty keypads can prevent successful recharges.
 
-To address these issues, we propose developing a web app that enables direct meter top-ups, eliminating the need for keypads. 
-This app will allow users to purchase tokens seamlessly from vendors, ensuring continuous availability. 
+To address these issues, we propose developing a web app that enables direct meter top-ups, eliminating the need for keypads.
+This app will allow users to purchase tokens seamlessly from vendors, ensuring continuous availability.
 Users will be able to top up from anywhere, check balances, review purchase history and usage reports, and manage multiple meters with ease, improving convenience and accessibility.
+
+Recharging prepaid electricity and water meters can be frustrating process, users must purchase a token, manually enter them into their meters and often deal with delays, errors, or failed transactions, this manual system is inefficient and leading to:
+
+- Errors in manual token entry causing unsuccessful recharges.- Unexpected power or water outages due to lack of timely recharges- Lack of real time tracking making it difficult for users to monitor consumption and budget efficiently
+  MAJOR issues occured just recently when users were asked to enter 2- 3 tokens to update their meters due to a national token identifier rollover. Many users experienced confusion, failed transaction and prolonged power outages, highlighting the inefficiences of current situation.
+  Proposed solutionTo address these challenges, we propose developing a smart recharge application that integrates directly with prepaid electricity and water meters. The app will offer:
+- Automatic Meter Updates – Instantly updates the meter upon successful payment, eliminating the need for token entry.- Usage Tracking – Provides real-time monitoring of electricity and water consumption.- Budgeting and Alerts – Allows users to set consumption limits, track spending, and receive notifications when usage is high or balance is low.- Scheduled & Auto-Top-Up – Enables users to schedule payments or set up automatic recharges when the balance drops below a certain threshold.- Multiple Payment Options – Supports mobile money, bank cards, and other digital payment methods for convenience.- Community & Household Management – Allows landlords, property managers, or shared households to track and manage utility costs efficiently.
+
+Problem Statement:
+In South Africa, recharging prepaid electricity and water meters can be a frustrating process. Users must purchase tokens, manually enter them into their meters, and often deal with delays, errors, or failed transactions. This manual system is inefficient, leading to:
+Delays in token delivery or processing failures
+Errors in manual token entry, causing unsuccessful recharges
+Unexpected power or water outages due to lack of timely recharges
+Lack of real-time tracking, making it difficult for users to monitor consumption and budget effectively
+
+Proposed Solution:
+To address these challenges, we propose developing a smart recharge application that integrates directly with prepaid electricity and water meters. The app will offer:
+
+1. Automatic Meter Updates – Instantly updates the meter upon successful payment, eliminating the need for token entry.
+
+2. Usage Tracking – Provides real-time monitoring of electricity and water consumption.
+
+3. Budgeting and Alerts – Allows users to set consumption limits, track spending, and receive notifications when usage is high or balance is low.
+
+4. Scheduled & Auto-Top-Up – Enables users to schedule payments or set up automatic recharges when the balance drops below a certain threshold.
+
+5. Multiple Payment Options – Supports mobile money, bank cards, and other digital payment methods for convenience.
+
+6. Community & Household Management – Allows landlords, property managers, or shared households to track and manage utility costs efficiently.
+
+This solution will provide a seamless, automated, and user-friendly way to recharge utilities, reducing downtime, improving financial planning, and enhancing the overall customer experience.
+Would you like to explore potential technical integrations, such as smart meter compatibility and API access for service providers?
